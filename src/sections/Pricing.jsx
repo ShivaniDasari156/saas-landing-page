@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Element } from "react-scroll";
 import clsx from "clsx";
 import { plans } from "../constants/index.jsx";
-import CountUp from "react-countup";git add ./
+import CountUp from "react-countup";
 
 const Pricing = () => {
   const [monthly, setMonthly] = useState(false);

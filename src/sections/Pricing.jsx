@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import { Element } from "react-scroll";
 import clsx from "clsx";
 import { plans } from "../constants/index.jsx";
+
 import CountUp from "react-countup";
+import Button from "../components/Button.jsx";
 
 const Pricing = () => {
   const [monthly, setMonthly] = useState(false);
@@ -12,11 +14,7 @@ const Pricing = () => {
       <Element className="pricing">
         <div className="container">
           {/* Pricing Header */}
-          <div
-            className="max-w-960 pricing-head_before relative
-mx-auto border-l border-r border-s2 bg-s1/50 pb-40 pt-28
-max-xl:max-w-4xl max-lg:border-none max-md:pb-32 max-md:pt-16"
-          >
+          <div className="max-w-960 pricing-head_before relative mx-auto border-l border-r border-s2 bg-s1/50 pb-40 pt-28 max-xl:max-w-4xl max-lg:border-none max-md:pb-32 max-md:pt-16">
             <h3 className="h3 mag-lg:h4 max-md:h5 z-3 relative mx-auto mb-14 max-w-lg text-center text-p4 max-md:mb-11 max-sm:max-w-sm">
               Flexible pricing for teams of all sizes
             </h3>
@@ -77,7 +75,7 @@ max-xl:max-w-4xl max-lg:border-none max-md:pb-32 max-md:pt-16"
                 <div
                   className={clsx(
                     "absolute left-0 right-0 z-2 flex items-center justify-center",
-                    index === 1 ? "-top-6" : "-top6 xl:-top-11",
+                    index === 1 ? "-top-6" : "-top-6 xl:-top-11",
                   )}
                 >
                   <img
@@ -121,10 +119,50 @@ max-xl:max-w-4xl max-lg:border-none max-md:pb-32 max-md:pt-16"
                         end={monthly ? plan.priceMonthly : plan.priceYearly}
                         duration={0.4}
                         useEasing={false}
+                        preserveValue
                       />
+                    </div>
+                    <div className="small-1 relative top-3 ml-1 uppercase">
+                      / mo
                     </div>
                   </div>
                 </div>
+                <div
+                  className={clsx(
+                    "body-1 relative z-2 mb-10 w-full border-b-s2 pb-9 text-center text-p4",
+                    index === 1 && "border-b",
+                  )}
+                >
+                  {plan.caption}
+                </div>
+
+                <ul className="mx-auto space-y-4 xl:px-7 ">
+                  {plan.features.map((feature) => (
+                    <li
+                      key={feature}
+                      className="relative flex items-center gap-5"
+                    >
+                      <img
+                        src={"/images/check.png"}
+                        alt="check"
+                        className="size-10 object-contain"
+                      />
+                      <p className="flex-1">{feature}</p>
+                    </li>
+                  ))}
+                </ul>
+
+                <div className="mt-10 flex w-full justify-center">
+                  <Button icon={plan.icon}>Get Started</Button>
+                </div>
+                {index === 1 && (
+                  <p
+                    className="small-compact mt-9 text-center
+                 text-p3 before:mx-2.5 before:content-['-'] after:mx-2.5 after:content-['-']"
+                  >
+                    Limited time offer
+                  </p>
+                )}
               </div>
             ))}
           </div>

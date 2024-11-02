@@ -35,26 +35,42 @@ As this is my second major project, I gained valuable experience in:
 
 ##### **React Development**
 
-- Component-Based Architecture: I learned how to decompose the UI into reusable and self-contained components, which promotes code reusability and simplifies maintenance. Understanding how to structure components hierarchically allowed me to create a more organized codebase.
-
-- State Management: Gaining proficiency with useState and useEffect hooks was pivotal. I learned how to manage local component state effectively and how to handle side effects, such as data fetching or subscriptions, in a React application. This understanding helped me in creating dynamic and interactive components that respond to user input and application even
-
-- Props and Component Communication: I delved into passing data and functions between parent and child components using props. This deepened my understanding of unidirectional data flow in React, ensuring that the application's state remains predictable and easier to debug.
-
-- React Hooks: Familiarizing myself with built-in hooks like useContext, useReducer, and custom hooks expanded my ability to manage complex state and side effects. Using useContext helped in avoiding prop drilling by providing a way to share values between components without explicitly passing a prop through every level of the tree.
-
-- Lifecycle Methods: Understanding the component lifecycle in React, and how hooks like useEffect replace lifecycle methods like componentDidMount, componentDidUpdate, and componentWillUnmount, allowed me to manage resources efficiently and avoid memory leaks.
-
-- Conditional Rendering: I learned how to render components conditionally based on application state, which is essential for creating a dynamic user experience. This involved using logical operators and ternary expressions within JSX.
+- Component-Based Architecture
+- State Management
+- Props and Component Communication
+- React Hooks
+- Lifecycle Methods
+- Conditional Rendering
 
 ##### **Tailwind CSS**
 
-- Utility-First CSS Approach: Embracing Tailwind's utility-first approach revolutionized how I style components. Instead of writing custom CSS, I utilized predefined classes to style elements directly in the markup, which increased development speed and consistency.
-- Responsive Design: I mastered creating responsive layouts using Tailwind's built-in responsive modifiers. By applying classes like sm:, md:, lg:, and xl:, I could tailor the design for various screen sizes without writing media queries manually.
-- Customization and Theming: I learned how to customize Tailwind's default configuration to align with the project's design requirements. This included extending the color palette, setting custom fonts, and adjusting spacing scales, which ensured that the application had a unique and consistent look and feel.
-- Advanced Layout Techniques: Using Tailwind's flexbox and grid utilities, I built complex and flexible layouts. This included creating responsive grids, aligning items, and managing spacing between components, which enhanced the user interface's overall structure.
-- Pseudo-Classes and States: I utilized Tailwind's support for pseudo-classes to style components based on states like hover, focus, and active. This improved the interactivity and accessibility of the application.
+- Utility-First CSS Approach
+- Responsive Design
+- Customization and Theming
+- Advanced Layout Techniques
+- Pseudo-Classes and States
 
 ##### **Vite**
 
-- Utility-First CSS App
+- Modern Development Workflow
+- ES Modules and Modern JavaScript
+- Configuring Build Process: Gained
+- Optimizing for Production
+
+##### **Version Control with Git**
+
+- Committing changes and managing branches.
+- Collaborating and tracking progress over time.
+- Maintained clear documentation and code comments.
+
+
+## 🤝 Acknowledgments
+
+Adrian Hajdin: For the comprehensive tutorial and
+guidance. [JavaScript Mastery](https://www.youtube.com/watch?v=kt0FrkQgw8w&t=3910s&ab_channel=JavaScriptMastery).
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+Note: This project is for educational purposes and is free to use under the terms of the MIT License.

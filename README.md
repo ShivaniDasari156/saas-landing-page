@@ -21,13 +21,18 @@ Tailwind CSS: A utility-first CSS framework for rapidly building modern websites
 
 # 🚀 Features
 
-👉 **Responsive Design:** The landing page is fully responsive and adapts to different screen sizes.
+👉 **Stunning Sections**: Includes hero, features, pricing (monthly/yearly), FAQ, testimonials, and download software
+sections.
 
-👉 **Animated Components:** Smooth animations enhance the user experience.
+👉 **Smooth Animations**: Complex CSS for fluid animations and eye-catching effects.
 
-👉 **Clean UI:** A modern and clean user interface that follows the latest design trends.
+👉 **Cool CSS Gradients**: Beautiful gradient effects using CSS `before` and `after` pseudo-elements.
 
-👉 **Reusable Components:** Components are modular and reusable, promoting clean code architecture.
+👉 **Seamless Navigation**: Offers a smooth user experience with intuitive navigation and scrolling.
+
+👉 **Optimized Performance**: Built for fast loading and an optimized experience.
+
+👉 **Pixel Perfect Design**: Ensures flawless responsiveness across all devices and screen sizes.
 
 ## 💡 What I Learned
 

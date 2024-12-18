@@ -1,5 +1,31 @@
 # ![JSM Academy - SaaS App Landing Page](image.png)
 
+  <br />
+
+   <img src="https://github.com/user-attachments/assets/d3dc9acf-b220-4cbc-9c13-bb7dc231148b" >
+  
+  <br /> 
+
+
+<br />
+   <img src="https://github.com/user-attachments/assets/4f54e4bb-338b-43cc-9efb-f46298428a35" >
+ 
+  <br /> 
+
+ 
+ <br />
+   <img src="https://github.com/user-attachments/assets/6bd5dca9-1760-4e04-a8f6-c2e03233782e" >
+  
+  <br /> 
+
+ 
+  <br /> 
+   <img src="https://github.com/user-attachments/assets/cf1bd670-78bb-43a4-89db-f30eacdc1a3d" >
+ 
+  <br /> <br />
+  
+
+
 ## 📚 Project Overview
 
 This project is based on a tutorial of a modern SaaS app landing page using React.js, Tailwind CSS, and Vite. While I am not the original developer of this application, I am documenting my progress and any challenges I face while coding along with him.

@@ -88,7 +88,7 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/r3ss1/JSM-SaaS-Landing-Page.git
+git clone https://github.com/rr3s1/JSM-SaaS-Landing-Page.git
 cd JSM-SaaS-Landing-Page
 ```
 
